@@ -1,9 +1,19 @@
+p {
+	text-transform: uppercase;
+	color: blue;
+}
+
 .punainen {
   width: 200px;
   height: 100px;
   background-color: red;
   position: absolute;
   left: 10px;
+  text-align: center;
+  padding-top: 40px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: green;
 }
 
 .keltainen {
@@ -12,6 +22,11 @@
   background-color: yellow;
   position: absolute;
   left: 260px;
+  text-align: center;
+  padding-top: 40px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: red;
 }
 
 .vihrea {
@@ -20,4 +35,9 @@
   background-color: green;
   position: absolute;
   left: 510px;
+  text-align: center;
+  padding-top: 40px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: yellow;
 }
